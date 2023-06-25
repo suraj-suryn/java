@@ -15,6 +15,8 @@ public class lognPowerOfNumber {
     }
 
     private static int powerofnumber(int n, int p) {
+        if(n==0)
+            return 0;
         if(p==0)
             return 1;
         else if (p%2==0) {
