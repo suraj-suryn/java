@@ -2,8 +2,6 @@ package Recursion;
 
 import java.util.Scanner;
 
-import org.omg.CORBA.SystemException;
-
 public class FabonacciSeries {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
